@@ -6,6 +6,9 @@
 //! component isolation, stable API, deterministic tests.
 #![forbid(unsafe_code)]
 
+/// Partition manager module.
+pub mod sigmaparted;
+
 use std::fmt;
 use std::collections::BTreeMap;
 
